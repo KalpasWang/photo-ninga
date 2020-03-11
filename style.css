@@ -15,7 +15,11 @@ header {
   margin-bottom: 50px;
 }
 
-#photos h2 {
-  margin-top: 0;
+#photos img {
+  margin-top: 1rem;
 }
 
+.section {
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+}

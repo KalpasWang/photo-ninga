@@ -21,14 +21,14 @@
             <i class="material-icons">menu</i>
           </a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="#">Photos</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#photos">Photos</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
           <ul class="sidenav" id="mobile-menu">
-            <li><a href="#">Photos</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#photos">Photos</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
@@ -112,28 +112,90 @@
     </div>
   
     <!-- contact form -->
-    <div class="container">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-    </div>
+    <section class="section container" id="contact">
+      <div class="row">
+        <div class="col s12 l5">
+          <h2 class="indigo-text text-darken-4">Get in Touch</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus architecto velit animi molestiae excepturi praesentium.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, temporibus.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus architecto velit animi molestiae excepturi praesentium.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, temporibus.</p>
+        </div>
+        <div class="col s12 l5 offset-l2">
+          <form action="">
+            <div class="input-field">
+              <i class="material-icons prefix">email</i>
+              <input type="email" name="" id="email">
+              <label for="email">Your Email</label>
+            </div>
+            <div class="input-field">
+              <i class="material-icons prefix">message</i>
+              <textarea class="materialize-textarea" id="message"></textarea>
+              <label for="message">Your Message</label>
+            </div>
+            <div class="input-field">
+              <i class="material-icons prefix">date_range</i>
+              <input type="text" id="date" class="datepicker">
+              <label for="date">Choose a date you need me for...</label>
+            </div>
+            <div class="input-field">
+              <p>Services required:</p>
+              <p>
+                <label>
+                  <input type="checkbox">
+                  <span>Photography</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="checkbox">
+                  <span>Photo Editing</span>
+                </label>
+              </p>
+            </div>
+            <div class="input-field center">
+              <button class="btn">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
   
     <!-- footer -->
-  
+    <footer class="page-footer grey darken-3">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5>About Me</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Connect</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#">
+                <i class="fab fa-facebook"></i> Facebook
+              </a></li>
+              <li><a class="grey-text text-lighten-3" href="#">
+                <i class="fab fa-twitter"></i> Twitter
+              </a></li>
+              <li><a class="grey-text text-lighten-3" href="#">
+                <i class="fab fa-linkedin-in"></i> Linked In
+              </a></li>
+              <li><a class="grey-text text-lighten-3" href="#">
+                <i class="fab fa-instagram"></i> Instagram
+              </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright grey darken-4">
+        <div class="container center-align">&copy; 2018 Photo Ninja</div>
+      </div>
+    </footer>
+
+
+
     <!-- Compiled and minified JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
